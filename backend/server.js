@@ -12,7 +12,7 @@ app.use(
     origin: [
       "http://localhost:5173",
       "http://localhost:3000",
-      "https://vercel.com/adithya-ss-projects-f8a889f9/news-website/FkJC3VUBoybPKrdC7pgHjDnm6Tkv", // Allow all Vercel preview deployments
+      "https://news-website-ashy-gamma.vercel.app/", // Allow all Vercel preview deployments
     ],
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
