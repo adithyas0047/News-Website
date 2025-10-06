@@ -3,6 +3,8 @@
 A **full-stack MERN news application** that allows users to explore the latest news articles, register/login securely using **Passport.js**, and bookmark favorite articles.  
 The app fetches real-time news using the **NewsAPI (news.org)** and provides a responsive, modern interface built with **React**.
 
+**Link for Demo**: https://news-website-ashy-gamma.vercel.app/
+
 ---
 
 ## 🚀 Tech Stack
