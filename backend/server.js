@@ -9,11 +9,19 @@ const app = express();
 // CORS Configuration - MUST be before other middleware
 app.use(
   cors({
-    origin: [
-      "http://localhost:5173",
-      "http://localhost:3000",
-      "https://news-website-ashy-gamma.vercel.app/", // Allow all Vercel preview deployments
-    ],
+    origin: function (origin, callback) {
+      // Allow requests with no origin (like mobile apps or curl)
+      if (!origin) return callback(null, true);
+
+      const allowedOrigins = ["http://localhost:5173", "http://localhost:3000"];
+
+      // Allow all Vercel domains
+      if (origin.includes("vercel.app") || allowedOrigins.includes(origin)) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: ["Content-Type", "Authorization"],
