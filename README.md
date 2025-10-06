@@ -162,5 +162,5 @@ dist
 
 - 🌍 Bengaluru, India
 - Was a part of 💼 Google Developer Groups on Campus
-- [https://www.linkedin.com/in/adithya-s-027342237/](LinkedIn)
+- [LinkedIn](https://www.linkedin.com/in/adithya-s-027342237/)
 - 💻 Passionate about MERN, IoT, and AI-powered systems
