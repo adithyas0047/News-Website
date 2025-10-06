@@ -26,7 +26,6 @@ The app fetches real-time news using the **NewsAPI (news.org)** and provides a r
 - 📰 **Fetch Latest News** dynamically from [NewsAPI.org](https://newsapi.org/)
 - 🔎 **Filter by Category and Source**
 - 📌 **Bookmark Articles** for logged-in users
-- 🧑‍💻 **Admin Dashboard** for managing articles
 - 💾 **MongoDB Integration** for persistent storage
 - ⚡ **CORS-enabled Backend** for secure cross-origin access
 - 🌐 **Fully Deployed** on Render + Vercel
