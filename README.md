@@ -92,25 +92,25 @@ npm start
 
 ## Frontend Setup (React)
 
-### 1. Navigate to frontend folder
+1. Navigate to frontend folder
 
 ```bash
 cd frontend/news-website
 ```
 
-### 2. Install dependencies
+2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Create `.env` file
+3. Create `.env` file
 
 ```bash
 VITE_API_URL=http://localhost:5000/api
 ```
 
-### 4. Run the frontend
+4. Run the frontend
 
 ```bash
 npm run dev
