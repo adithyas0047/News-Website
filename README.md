@@ -63,19 +63,19 @@ news-website/
 
 ## Backend setup (Express + MongoDB)
 
-### 1. Navigate to backend folder
+1. Navigate to backend folder
 
 ```bash
 cd backend
 ```
 
-### 2. Install dependencies
+2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Create a .env file
+3. Create a .env file
 
 ```bash
 MONGO_URI=your_mongodb_connection_string
@@ -84,7 +84,7 @@ NEWS_API_KEY=your_newsapi_key
 PORT=5000
 ```
 
-### 4. Run the server
+4. Run the server
 
 ```bash
 npm start
