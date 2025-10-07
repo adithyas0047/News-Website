@@ -64,19 +64,16 @@ news-website/
 ## Backend setup (Express + MongoDB)
 
 1. Navigate to backend folder
-
 ```bash
 cd backend
 ```
 
 2. Install dependencies
-
 ```bash
 npm install
 ```
 
 3. Create a .env file
-
 ```bash
 MONGO_URI=your_mongodb_connection_string
 JWT_SECRET=your_jwt_secret
@@ -85,7 +82,6 @@ PORT=5000
 ```
 
 4. Run the server
-
 ```bash
 npm start
 ```
@@ -93,29 +89,24 @@ npm start
 ## Frontend Setup (React)
 
 1. Navigate to frontend folder
-
 ```bash
 cd frontend/news-website
 ```
 
 2. Install dependencies
-
 ```bash
 npm install
 ```
 
 3. Create `.env` file
-
 ```bash
 VITE_API_URL=http://localhost:5000/api
 ```
 
 4. Run the frontend
-
 ```bash
 npm run dev
 ```
-
 Frontend runs on `http://localhost:5173`
 
 ## 🌍 Deployment Configuration
