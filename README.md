@@ -145,11 +145,11 @@ npm run build
 dist
 ```
 ## 📸 Screenshots
-1. Login Page
+1. **Login Page**
 ![Login Page](News-Website-login.png)
-2. Register Page
+2. **Register Page**
 ![Register Page](News-Website-register.png)
-3. Home Page
+3. **Home Page**
 ![Home Page](News-Website-home.png)
 
 ## 👨‍💻 Author
